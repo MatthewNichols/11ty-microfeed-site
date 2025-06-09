@@ -1,0 +1,7 @@
+name = "11ty-microfeed-site"
+compatibility_date = "2025-06-06"
+
+[assets]
+directory = "./_site"
+not_found_handling = "404-page"
+html_handling = "auto-trailing-slash"
