@@ -107,3 +107,6 @@ dist
 _site/
 client-side-compiled/
 styles-compiled/
+
+# CloudFlare stuff
+.wrangler/
