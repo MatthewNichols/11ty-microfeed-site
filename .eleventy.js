@@ -1,5 +1,6 @@
 import pluginWebc from "@11ty/eleventy-plugin-webc";
 import { registerExtensions } from "./src/11ty-extensions/index.js";
+import "dotenv/config.js"; // Load environment variables from .env file
 
 // If you have short codes
 //const registerShortCodes = require("./src/short-codes/");
