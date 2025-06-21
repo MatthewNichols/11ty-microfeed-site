@@ -69,7 +69,8 @@ typings/
 .yarn-integrity
 
 # dotenv environment variables file
-.env
+# Allowing the .env to be checked in so CloudFlare can use it to build
+#.env
 .env.test
 
 # parcel-bundler cache (https://parceljs.org/)
